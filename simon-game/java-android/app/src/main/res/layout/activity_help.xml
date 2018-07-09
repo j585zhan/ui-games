@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/helpTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="HELP" />
+
+
+    <TextView
+        android:id="@+id/helpBodyText1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/helpBodyText2"
+        android:layout_alignStart="@+id/helpBodyText2"
+        android:layout_below="@+id/helpTitleText"
+        android:text="1. Touch anywhere to start the simon game" />
+
+    <TextView
+        android:id="@+id/helpBodyText2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/helpBodyText1"
+        android:text="2. Touch bottom to back to welcome screen from game" />
+
+    <TextView
+        android:id="@+id/helpBodyText3"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/helpBodyText2"
+        android:layout_alignStart="@+id/helpBodyText2"
+        android:layout_below="@+id/helpBodyText2"
+        android:text="3. You can set any number of buttons between 1 to 6" />
+
+    <TextView
+        android:id="@+id/helpBodyText4"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/helpBodyText3"
+        android:layout_alignStart="@+id/helpBodyText3"
+        android:layout_below="@+id/helpBodyText3"
+        android:text="4. There will be 3 levels of difficulty to choose" />
+
+    <TextView
+        android:id="@+id/helpBodyText5"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/helpBodyText4"
+        android:layout_alignStart="@+id/helpBodyText4"
+        android:layout_below="@+id/helpBodyText4"
+        android:text="5. Follow the flashing animation to get score" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/helpBodyText5"
+        android:layout_centerHorizontal="true"
+        android:text="BACK" />
+
+</RelativeLayout>

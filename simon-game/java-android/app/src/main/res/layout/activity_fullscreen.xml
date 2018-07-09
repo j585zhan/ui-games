@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.jim.simon.FullscreenActivity">
+
+
+    <TextView
+        android:id="@+id/mainTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_above="@+id/startButton"
+        android:layout_centerHorizontal="true"
+        android:text="SIMON GAME" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_above="@+id/settingButton"
+        android:layout_alignLeft="@+id/mainTitleText"
+        android:layout_alignStart="@+id/mainTitleText"
+        android:text="START" />
+
+    <Button
+        android:id="@+id/settingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/startButton"
+        android:layout_alignStart="@+id/startButton"
+        android:layout_centerVertical="true"
+        android:text="SETTING" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/settingButton"
+        android:layout_alignStart="@+id/settingButton"
+        android:layout_below="@+id/settingButton"
+        android:text="HELP" />
+</RelativeLayout>

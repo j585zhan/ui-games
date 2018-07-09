@@ -1,0 +1,45 @@
+# CS349 A3
+Student: j585zhan
+Marker: Blaine Lewis
+
+
+Total: 31 / 33 (93.94%)
+
+Code: 
+(CO: won’t compile, CR: crashes, FR: UI freezes/unresponsive, NS: not submitted)
+
+
+Notes:   
+
+## REQUIREMENTS
+
+1. [2/2] Your app should have a welcome screen with game name, very brief game instructions, and some interface methods to start a game or change game settings.
+
+2. [2/2] Starting the game means the game interface is displayed, changing game settings means a settings interface is displayed.
+
+3. [2/2] The settings interface has a method to set the number of Simon buttons in the game (between 1 and 6) and a method to select among three levels of difficulty (“Easy”, “Normal”, and “Hard”: requirement 9 covers how difficulty level works).
+
+4. [2/2] The game interface has at least a score, a place for player messages, and the Simon buttons.
+
+5. [2/2] There’s a way to return from the settings or the game back to the welcome screen.
+
+6. [2/2] The Simon buttons should be displayed in some visually balanced and pleasing way (e.g. good spacing, attractive colours, nice styles), regardless whether there’s 1, 2, 3, 4, 5, or 6 buttons. They should be large enough to tap easily with a finger.
+
+7. [2/2] The message in the game should tell the player what’s happening in the game state, when it’s their turn, if they just lost or won, etc.
+
+8. [2/2] When the computer is playing the sequence, the buttons “flash” for a duration of time to indicate the pattern that the user needs to replicate.
+You can choose what “flash” means, the important thing is the user can clearly see when a button is played in the sequence.
+
+9. [2/2] The playback speed of the sequence is determined by the selected difficulty level. Also the sequence pattern length increases by 1 on each successfully completed round, and returns to 1 when the user loses.
+
+10. [2/2] The player can tap on buttons only when it’s “their turn”. The buttons are not active when the sequence is played or when the game was just won or lost.
+
+11. [2/2] The player loses when they don’t complete a sequence correctly. There should be clear feedback that they lost (a message, changes in colour, etc.). After losing the player can start a new game or return to the welcome screen to read the instructions again or change settings.
+
+12. [2/2] If the player completes a sequence correctly, clear feedback indicates they won, and they can start another round. The score is also increased by 1.
+
+## INTERACTION DESIGN [2/4]
+
+-2 missing interaction sequence
+
+## GENERAL [5/5] (can be negative)

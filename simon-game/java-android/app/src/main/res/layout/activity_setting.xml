@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/settingTitleText"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="SETTING" />
+
+    <SeekBar
+        android:id="@+id/buttonNumberSeekBar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:layout_below="@id/settingTitleText"
+        android:progress="3" />
+
+    <TextView
+        android:id="@+id/buttonNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonNumberSeekBar"
+        android:text="number of buttons" />
+
+    <SeekBar
+        android:id="@+id/difficultySeekBar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="2"
+        android:layout_below="@id/buttonNumberLabel"
+        android:progress="1" />
+
+    <TextView
+        android:id="@+id/difficultyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/difficultySeekBar"
+        android:text="difficulty" />
+
+    <Button
+        android:id="@+id/doneSettingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/difficultyLabel"
+        android:layout_centerInParent="true"
+        android:text="done" />
+</RelativeLayout>
